@@ -1,0 +1,2 @@
+# entorns-programaci-i-processos
+Repositori del bloc Entorns, programació i processos on trobareu els exemples vistos a classe, codis font i altres solucions
