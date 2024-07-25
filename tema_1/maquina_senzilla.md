@@ -7,7 +7,7 @@ Disposem d'una màquina senzilla que pot executar 4 operacions:
 - Compara dos números naturals (operació CMP)
 - Salta si dos números son iguals (operació BEQ)
 
-//imatge màquina senzilla
+<img src="https://github.com/raquel-alaman/entorns-programacio-i-processos/blob/main/tema_1/images/maquina-ordinador.jpg" width="300" height="300">
 
 Cada una d'aquestes operacions té assignat un codi de bits que la identifica:
 
@@ -27,7 +27,7 @@ Cada posició de memòria conté diferents valors i, en aquest cas, la màquina 
 Rang: 0..127
 7 bits per codificar l'adreça de memòria
 
-//imagte posicions memòria RAM
+<img src="https://github.com/raquel-alaman/entorns-programacio-i-processos/blob/main/tema_1/images/direccions-ram.jpg" width="250" height="400">
 
 Si tenim la següent instrucció en llenguatge màquina:
 ```sh
@@ -48,9 +48,11 @@ De manera que en aquesta posició de memòria, la instrucció emmagatzemada indi
 
 ### Com passem de LAN a llenguatge màquina?
 
-//imatge LAN -> màquina
+<img src="https://github.com/raquel-alaman/entorns-programacio-i-processos/blob/main/tema_1/images/LAN-maquina.jpg" width="250" height="400">
+
 Suposem que volem especificar un algorisme que compari el contingut de dos variables i, si aquestes són diferents, emmagatzemi en una tercera variable el valor de la primera afegint-li un 1.
 Aquest codi s’executarà en la màquina senzilla. Sabem que la posició @101 conté un 1, que la variable **_a_** està emmagatzemada en la posició @102, que la variable **_b_** està en la posició @103 i que el resultat **_c_** es guardarà en la posició @104.
+
 |POSICIÓ   |CONTINGUT                    |           
 |----------|-----------------------------|
 |0         |`'CMP 102,103'`              |
